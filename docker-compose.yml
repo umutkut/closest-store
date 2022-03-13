@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  closest-store:
+    image: umutku/closest-store
+    container_name: closest-store
+    ports:
+      - 8080:8080
